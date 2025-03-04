@@ -29,7 +29,8 @@
 -Nếu đặt thành công ở hàng cuối cùng → Lưu lại kết quả.
 -Nếu không tìm thấy cách đặt, lùi lại hàng trước và thử phương án khác.
 ### c. Ưu điểm và hạn chế
-**Ưu điểm:
+**Ưu điểm:**
+
 1.Sử dụng Backtracking hiệu quả:
 
 -Chương trình áp dụng kỹ thuật quay lui (backtracking) để thử đặt quân hậu vào từng hàng, kiểm tra xem có hợp lệ không, nếu hợp lệ thì tiếp tục đặt quân hậu tiếp theo.
@@ -40,7 +41,9 @@
 -Dễ mở rộng lên các giá trị lớn của 𝑛
 -Do chỉ sử dụng vector để lưu trạng thái, chương trình có thể hoạt động tốt với giá trị n tương đối lớn, miễn là bộ nhớ đủ.
 -Chương trình không chỉ tìm ra một lời giải mà in ra tất cả các lời giải có thể có, giúp dễ dàng kiểm tra và mở rộng.
-**Nhược điểm:
+
+**Nhược điểm:**
+
 1.Độ phức tạp cao khi n lớn.
 
 2.Sử dụng mảng có kích thước lớn không tối ưu về bộ nhớ
