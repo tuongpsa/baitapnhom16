@@ -29,6 +29,26 @@
 -Nếu đặt thành công ở hàng cuối cùng → Lưu lại kết quả.
 -Nếu không tìm thấy cách đặt, lùi lại hàng trước và thử phương án khác.
 ### c. Ưu điểm và hạn chế
+**Ưu điểm:
+1.Sử dụng Backtracking hiệu quả:
+
+-Chương trình áp dụng kỹ thuật quay lui (backtracking) để thử đặt quân hậu vào từng hàng, kiểm tra xem có hợp lệ không, nếu hợp lệ thì tiếp tục đặt quân hậu tiếp theo.
+-Khi đi vào tình huống không thể đặt quân hậu, chương trình sẽ quay lui và thử phương án khác.
+2.Tối ưu hóa kiểm tra tính hợp lệ của vị trí quân hậu:
+
+-Thay vì kiểm tra toàn bộ bàn cờ, chương trình sử dụng ba mảng check, check1, check2 để kiểm tra nhanh xem một ô có an toàn không, giúp giảm độ phức tạp của việc kiểm tra từ O(N) xuống 𝑂(1).
+-Dễ mở rộng lên các giá trị lớn của 𝑛
+-Do chỉ sử dụng vector để lưu trạng thái, chương trình có thể hoạt động tốt với giá trị n tương đối lớn, miễn là bộ nhớ đủ.
+-Chương trình không chỉ tìm ra một lời giải mà in ra tất cả các lời giải có thể có, giúp dễ dàng kiểm tra và mở rộng.
+**Nhược điểm:
+1.Độ phức tạp cao khi n lớn.
+
+2.Sử dụng mảng có kích thước lớn không tối ưu về bộ nhớ
+
+Các vector check1, check2 có kích thước 2n, nghĩa là sử dụng thêm không gian bộ nhớ thay vì tính toán trực tiếp khi cần.
+
+3.Chưa tối ưu đầu vào và đầu ra
+Khi n lớn, số nghiệm có thể rất nhiều, việc in tất cả nghiệm sẽ gây chậm chương trình. Cần cải thiện bằng cách chỉ hiển thị số lượng giải pháp hoặc một số giải pháp nhất định.
 
 ---
 
