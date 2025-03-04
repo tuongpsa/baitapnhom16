@@ -53,19 +53,7 @@ với bàn cờ 2*2 thì việc đặt 2 quân hậu sao cho không ăn nhau là
 n=4
 **Output:**  
 Number of solutions is 2
-Number of solutions is 2
-Solution 1 :
-- Q - -
-- - - Q
-Q - - -
-- - Q -
-
-Solution 2 :
-- - Q -
-Q - - -
-- - - Q
-- Q - -
-
+các vị trí đặt được là "Q",không đặt được thì là "."
 **Giải thích:**  
 -Bắt đầu từ hàng đầu tiên (row = 1), thử đặt quân hậu vào từng cột (col = 1 -> 4).
 -Với mỗi cột hợp lệ, tiếp tục đặt quân hậu vào hàng tiếp theo (row + 1).
