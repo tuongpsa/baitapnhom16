@@ -48,14 +48,14 @@ int main() {
             for(int row=0; row<n; row++) {
                 for(int col=1; col<=n; col++) {
                     if(solution[i][row] == col) cout << "Q ";
-                    else cout << "- ";
+                    else cout << ". ";
                 }
                 cout << endl;
             }
             cout << endl;
         }
     } else {
-        cout << "No solution" << endl;
+        cout << "No solution!" << endl;
     }
 }
 
