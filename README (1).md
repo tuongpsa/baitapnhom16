@@ -54,7 +54,7 @@ n=4
 **Output:**  
 Number of solutions is 2
 Solution 1 :
-. Q . .
+. Q . ./n
 . . . Q
 Q . . .
 . . Q .
