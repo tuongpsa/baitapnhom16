@@ -108,7 +108,7 @@ Q . . .
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
+[https://drive.google.com/drive/folders/1d0jQz7ommfel0_4TNOe4b7buV-_0rSv9?usp=sharing](#)
 
 ---
 
