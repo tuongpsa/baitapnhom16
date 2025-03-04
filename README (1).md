@@ -58,12 +58,12 @@ Solution 1 :
 . . . Q
 Q . . .
 . . Q .
-
 Solution 2 :
 . . Q .
 Q . . .
 . . . Q
 . Q . .
+---
 **Giải thích:**  
 -Bắt đầu từ hàng đầu tiên (row = 1), thử đặt quân hậu vào từng cột (col = 1 -> 4).
 -Với mỗi cột hợp lệ, tiếp tục đặt quân hậu vào hàng tiếp theo (row + 1).
